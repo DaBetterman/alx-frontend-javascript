@@ -1,5 +1,4 @@
 export default function getListStudents() {
-  const list = [];
 
   const students = [
     { id: 1, firstname: 'Guillaume', location: 'San Francisco' },
@@ -7,6 +6,5 @@ export default function getListStudents() {
     { id: 5, firstname: 'Serena', location: 'San Francisco' },
   ];
 
-  list.push(students);
-  return (list);
+  return (students);
 }
